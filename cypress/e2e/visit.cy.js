@@ -9,11 +9,11 @@ describe('Visit Flip.com', () => {
     context('Login Button Click', () => {
     
     it('Click on login', function () {
-        cy.get('#footer-login-button').scrollIntoView().should('be.visible').click()
+        cy.get('[data-testid="appleAuthLink__anchor__login"]').scrollIntoView().should('be.visible').click()
 
         })
 
-        
+
 
     })
 
